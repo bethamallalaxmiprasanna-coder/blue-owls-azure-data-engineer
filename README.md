@@ -30,9 +30,11 @@ step 1. Start the environment:
    docker-compose up
 
 Step 2: Open Jupyter
+   ```bash
 http://localhost:8888
 
 Step 3: Run the notebook
+    ```bash
 azure_data_engineer_pipeline_api_blue_owls.ipynb
 
 
