@@ -8,7 +8,7 @@ The pipeline follows a layered approach:
 
 - **Bronze Layer**: Raw data ingested from REST APIs
 - **Silver Layer**: Cleaned, deduplicated, and transformed data
-- **Gold Layer**: Contains fact and dimension tables (fact_order_items, dim_customers, dim_products, dim_sellers) optimized for analytics
+- **Gold Layer**: Contains fact and dimension tables optimized for analytics
   
 
 ## Features
