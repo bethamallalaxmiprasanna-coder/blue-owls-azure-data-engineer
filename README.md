@@ -8,7 +8,8 @@ The pipeline follows a layered approach:
 
 - **Bronze Layer**: Raw data ingested from REST APIs
 - **Silver Layer**: Cleaned, deduplicated, and transformed data
-- **Gold Layer**: Star schema (fact and dimension tables) for analytics
+- **Gold Layer**: Contains fact and dimension tables (fact_order_items, dim_customers, dim_products, dim_sellers) optimized for analytics
+  
 
 ## Features
 - API ingestion with pagination support
@@ -37,4 +38,5 @@ http://localhost:8888
 ```bash
 azure_data_engineer_pipeline_api_blue_owls.ipynb
 ```
-
+## Note
+This pipeline is designed to handle real-world API challenges such as token expiration and transient failures, ensuring reliability and fault tolerance.
