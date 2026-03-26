@@ -43,5 +43,5 @@ submission/
 
 ## SQL Queries
 SQL queries are available in submission/sql/ for analytics:
-- Revenue Trend Analysis
-- Seller Performance Scorecard
+- Revenue by Customer
+- Revenue by Product
