@@ -1,0 +1,12 @@
+
+version: '3'
+services:
+  notebook:
+    image: jupyter/pyspark-notebook
+    container_name: pyspark_notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/submission
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
